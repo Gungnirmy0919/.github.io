@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #000 0%, #000 100%);
 }
 
 .text-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #000 0% , #000 100% ) !important;
     opacity: 0.8;
 }
 
@@ -379,8 +379,8 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #000 !important;
+    border: 1px solid #000;
     background-color: transparent;
     border-radius: 30px;
     box-shadow: none;
@@ -510,7 +510,7 @@ header .side-nav .social-link {
 .cover-social-link a {
     padding: 0 15px;
     font-size: 1.35rem;
-    color: #fff;
+    color: #000 !important;
 }
 
 header .go-back {
@@ -550,10 +550,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/* .bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-}
+} */
 
 .bg-cover:before,
 .bg-cover:after {
@@ -578,19 +578,21 @@ header .go-back i {
     line-height: 1.2em;
     margin-bottom: 20px;
     position: relative;
+    color: #000;
 }
 
 .bg-cover .description {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: #000;
 }
 
 .bg-cover .post-title {
     margin: 0 auto;
     font-size: 2.5rem;
     font-weight: 400;
+    color: #000;
 }
 
 
