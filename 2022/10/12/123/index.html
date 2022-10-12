@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="硬件组成、进制计算、校验码, GungnirMY919">
+    <meta name="keywords" content="123, GungnirMY919">
     <meta name="description" content="个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>硬件组成、进制计算、校验码 | GungnirMY919</title>
+    <title>123 | GungnirMY919</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">硬件组成、进制计算、校验码</h1>
+                    <h1 class="description center-align post-title">123</h1>
                 </div>
             </div>
         </div>
@@ -468,101 +468,86 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="硬件组成、进制计算、校验码"><a href="#硬件组成、进制计算、校验码" class="headerlink" title="硬件组成、进制计算、校验码"></a>硬件组成、进制计算、校验码</h1><h3 id="硬件组成"><a href="#硬件组成" class="headerlink" title="硬件组成"></a>硬件组成</h3><h4 id="计算机的硬件基本系统"><a href="#计算机的硬件基本系统" class="headerlink" title="计算机的硬件基本系统"></a>计算机的硬件基本系统</h4><p>计算机的硬件基本系统由<strong>五大部分</strong>组成: 运算器, 控制器, 存储器, 输入设备(鼠标键盘), 输出设备(如显示器)</p>
-<p>存储器分为<strong>内部存储器</strong>(内存,容量小,速度快,适合临时存放数据)和<strong>外部存储器</strong>(如硬盘,光盘等, 容量大, 速度慢, 长期保存数据)</p>
-<p><strong>输入设备</strong>和<strong>输出设备</strong>合并称为外部设备, 即外设</p>
-<p>主机: CPU + 主存储器	</p>
-<h4 id="中央处理单元CPU-考点"><a href="#中央处理单元CPU-考点" class="headerlink" title="中央处理单元CPU(考点)"></a>中央处理单元CPU(考点)</h4><p>中央处理单元组成: 由运算器, 控制器, 寄存器组和内部总线组成.</p>
-<p>中央处理单元功能: 实现程序控制, 操作控制, 时间控制, 数据处理功能.</p>
-<p>运算器的组成: 由算术逻辑单元ALU(实现对数据的算术和逻辑运算), 累加寄存器AC(运算结果或源操作数的存放区), 数据缓冲寄存器DR(暂时存放的内存的指令或数据), 和状态条件寄存器PSW(保存指令运行结果的条件码内容, 如溢出标志等) 组成.</p>
-<p>运算器功能:执行所有的算术运算,如加减乘除等; 执行所有的逻辑运算并进行逻辑测试(与\或\非\比较)</p>
-<p>控制器组成: 由指令寄存器IR(暂存CPU执行指令), 程序计数器PC(存放指令执行地址), 地址寄存器AR(保存当前CPU缩放问的内容地址) , 指令译码器ID(分析指令操作码)等组成.</p>
-<p>控制器功能: 控制整个CPU的工作,最为重要,其中包括程序控制、时序控制等</p>
-<h3 id="进制计算"><a href="#进制计算" class="headerlink" title="进制计算"></a>进制计算</h3><h4 id="数据的进制转化"><a href="#数据的进制转化" class="headerlink" title="数据的进制转化"></a>数据的进制转化</h4><p>二进制符号一般表示为0b或0b0011</p>
-<p>十六进制符号为0x或H，表示为0x18F或者18FH</p>
-<p>二进制转八进制，二进制转16进制可以不需要先转换成10进制。</p>
-<p>如010110（2）可以分为 010|110 –&gt; 26(8)</p>
-<p>如010110（2）可以分为 0001|0110【不能组成4个的要在前面补0】–&gt; G(16)</p>
-<h4 id="数的表示"><a href="#数的表示" class="headerlink" title="数的表示"></a>数的表示</h4><p>机器数：各种数值在计算机中的表现形式，特点是使用二进制计数制，数的符号用0和1表示，小数点则隐含，不占位置</p>
-<p>机器数有无符号数和带符号数之分。无符号数表示正数，没有符号位。带符号数最高位为符号位，正数符号位为0，负数符号位为1.</p>
-<p>定点表示法分为纯小数和纯整数两种，其中小数点不占存储位，而是按照以下约定：</p>
-<p>​	纯小数：小数点的位置在机器数的最高数值位之前</p>
-<p>​	纯整数：约定小数点的位置在机器数的最低数值位之后</p>
-<p>真值：机器数对应的实际数值</p>
-<h4 id="数的编码方式"><a href="#数的编码方式" class="headerlink" title="数的编码方式"></a>数的编码方式</h4><p>原码: 一个数的正常二进制表示,最高位标识符号,数值0的源码有两种形式 +0 (+00000000) 和 -0 (10000000)</p>
-<p>反码: <strong>正数的反码即原码</strong>; 负数的反码是在原码的基础上,除符号位之外, 其他各位按位取反. </p>
-<p>​	数值0的反码也有两种形式: +0(0000000), -0(11111111)</p>
-<p>补码: 正数的补码即原码, 负数的补码是在原码的基础上除了符号位之外, 其他各位按位取反, 而后末位+1, 若有进位则产生进位. 因此数值0的补码只有一种形式 +0 &#x3D;  -0 &#x3D; 00000000[因为00000000全部取反变成11111111,进行 + 1运算后变成 100000000 的九位数, 溢出了八位的上限, 最后还是只出后八位00000000]</p>
-<p>移码: 用作浮点运算的阶码, 无论正数负数,都是将该原码的补码的<strong>符号位</strong>取反得到移码. </p>
-<h4 id="浮点数的表示"><a href="#浮点数的表示" class="headerlink" title="浮点数的表示"></a>浮点数的表示</h4><p>表示方法为<br>$$<br>N &#x3D; F* 2 ^ E<br>$$<br>其中E称为阶码, F称为尾数. (这类似与十进制的科学计数法如85.125 &#x3D; 0.85125 * 10^2)</p>
-<p>在浮点数的表示中,阶码为带符号的纯整数,尾数为带符号的纯小数,要注意符号占最高位(正数0负数1),其表示格式如下:</p>
-<p>​                                                                                 <strong>阶符|阶码|数符|尾数</strong></p>
-<p>很明显的是,与科学计数法类似,一个浮点数的表示法不是唯一的,它所能表示的数值范围由阶码确定,所表示的数值精度由尾数决定.尾数的表示采用规格化方法, 也即带符号尾数的补码必须为1.0xxxx(负数)或者0.1xxxx(负数),其中x可以为0或1.</p>
-<h4 id="浮点数的运算"><a href="#浮点数的运算" class="headerlink" title="浮点数的运算"></a>浮点数的运算</h4><p>Ⅰ.对阶(使得两个数的阶码相同,小阶向大阶看齐,较小阶码增加几位,尾数就右移几位[在首位补0])</p>
-<p>Ⅱ.尾数计算(相加,若是减法运算,则加负数)</p>
-<p>Ⅲ.结果规格化(尾数表示规格化,带符号尾数转化为1.0xxxx或是0.1xxxx)</p>
-<h4 id="算术运算和逻辑运算"><a href="#算术运算和逻辑运算" class="headerlink" title="算术运算和逻辑运算"></a>算术运算和逻辑运算</h4><p>算术运算:加减乘除等基本算术运算,对于二进制数要掌握其基本逻辑运算</p>
-<p>逻辑运算:</p>
-<p>​	逻辑与&amp;: 0与1相与,有一个为0结果就为0, 两个都为1时才为1</p>
-<p>​	逻辑或|: 0和1相或,只要有一个为1结果就为1, 两个都为0才为0</p>
-<p>​	异或: <strong><u>同0非1</u></strong>, 即参加运算的二进制数同为0或者同为1结果为0, 一个为0另一个为1结果才为1</p>
-<p>​	逻辑非!: 0的非是1, 1对非是0</p>
-<p>​	逻辑左移&lt;&lt;: 二进制数整体左移n位,高位溢出则舍去,低位补0</p>
-<p>​	逻辑右移&gt;&gt;: 二进制数整体右移n位,低位溢出则舍去,高位补0</p>
-<h3 id="校验码"><a href="#校验码" class="headerlink" title="校验码"></a>校验码</h3><p>码距: 就单个编码A:00而言,其码距为1, 因为其只需要改变其中一位就可以变成另一个编码. 在两个编码中,A转换为B码所需要改变的位数称为码距, 如果A:00要转换为B:11, 码距为2. 一般来说,码距越大越利于纠错和验错.</p>
-<h4 id="奇偶校验"><a href="#奇偶校验" class="headerlink" title="奇偶校验"></a>奇偶校验</h4><p>奇偶校验码: 在编码中增加1位校验位来使得编码中1的个数为奇数(奇校验)或者偶数(偶校验),从而使得码距变为2</p>
-<p>​	[要使得这个验错失效的码距为2,因为所有码距是1编码都无法通过奇偶校验的检错]</p>
-<p>奇校验: 编码中有奇数个1,接收方利用奇检验就计算接受到的编码中1的数量,如果是奇数个,则无误,否则判断有误.</p>
-<p>偶校验: 类似奇校验</p>
-<h4 id="CRC循环冗余校验码"><a href="#CRC循环冗余校验码" class="headerlink" title="CRC循环冗余校验码"></a>CRC循环冗余校验码</h4><p>找出一个可以整除多项式的编码,首先将原始报文除以多项式,得到的余数作为校验位加在原始报文之后,作为发送数据发给接收方.</p>
-<p>[见计算机网络CRC循环冗余校验码21]</p>
-<p>TIPS:</p>
-<p>​	每次不够位数了可以在末位补一位0,如果补0后仍然无法完成运算(位数不同),则运算结束</p>
-<p>​	校验码的位数为多项式位数 - 1</p>
-<h4 id="海明码"><a href="#海明码" class="headerlink" title="海明码"></a>海明码</h4><p>设数据位是n位,校验位是k位,则n和k必须满足以下关系:<br>$$<br>2^k - 1 &gt;&#x3D; n+k<br>$$<br>​		</p>
-<p>海明码的校验位不在首位和尾部, 而在处于2的n次幂中, 即处于1,2,4,8,16,…位上,其余位才能填充真正的数据位.</p>
-<p>若信息数据为1011, 则可知1,2,4为校验位. 3,5,6,7位为数据位,用来从低位开始存放数据</p>
+                <h1 id="体系结构、指令流水线、存储系统"><a href="#体系结构、指令流水线、存储系统" class="headerlink" title="体系结构、指令流水线、存储系统"></a>体系结构、指令流水线、存储系统</h1><h4 id="计算机体系结构分类："><a href="#计算机体系结构分类：" class="headerlink" title="计算机体系结构分类："></a>计算机体系结构分类：</h4><p>1、Flynn分类法</p>
 <table>
 <thead>
 <tr>
-<th>7</th>
-<th>6</th>
-<th>5</th>
-<th>4</th>
-<th align="left">3</th>
-<th>2</th>
-<th>1</th>
-<th>位数</th>
+<th>体系结构类型</th>
+<th>结构</th>
+<th>关键特性</th>
+<th>代表</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>I4</td>
-<td>I3</td>
-<td>I2</td>
-<td>\</td>
-<td align="left">I1</td>
-<td>\</td>
-<td>\</td>
-<td>信息位</td>
+<td>单指令流单数据流SISD</td>
+<td>控制部分：一个 处理器：一个 主存模块：一个</td>
+<td></td>
+<td>单处理器系统</td>
 </tr>
 <tr>
-<td>\</td>
-<td>\</td>
-<td>\</td>
-<td>r2</td>
-<td align="left">\</td>
-<td>r1</td>
-<td>r0</td>
-<td>校验位</td>
+<td>单指令多数据流SIMD</td>
+<td>控制部分：一个 处理器：多个 主存模块：多个</td>
+<td>各处理器异步执行同一条指令</td>
+<td>并行处理机、阵列处理机、超级向量处理机</td>
+</tr>
+<tr>
+<td>多指令单数据流MISD</td>
+<td>控制部分：多个 处理器：一个 主存模块：多个</td>
+<td>被证明是不可能、不实际</td>
+<td>目前没有，有文献称流水线计算机为此类</td>
+</tr>
+<tr>
+<td>多指令多数据流MIMD</td>
+<td>控制部分：多个 处理器：多个 主存模块：多个</td>
+<td>能够实现作业、任务和制定等各级全面并行</td>
+<td>多处理器系统、多计算机</td>
 </tr>
 </tbody></table>
-<p>每一位校验码的计算公式: </p>
-<p>​	需要确定每一位校验码到底校验哪些信息位, 将信息位(即编号)拆分成二进制表示, 如第七位信息位(I4): 7 &#x3D; 4 + 2 + 1, 由第4位校验位(r2)和第2位校验位(r1)以及第1位校验位(r0)共同校验, 第六位信息位(I3): 6 &#x3D; 4 + 2, 第五位信息位(I2): 5 &#x3D; 4 + 1, 第三位信息位(I1) : 3 &#x3D; 2 + 1</p>
-<p> 对于第4位校验位(r2), 与它相关的有 I4, I3, I2, 那么对这些数进行异或运算. 已知数据为1011,则 I4 &#x3D; 1, I3 &#x3D; 0, I2 &#x3D; 1, I1 &#x3D; 1</p>
-<p>则r2 &#x3D; 异或运算(1,0,1)[同0非1] &#x3D; 0 </p>
-<p>r1与I4, I3, I1相关, 则r1 &#x3D; 异或运算(1,0,1) &#x3D; 0 </p>
-<p>r0与I4, I1相关,则r0 &#x3D; 异或运算(1,1,1) &#x3D; 1</p>
-<p>则我们可以推出海明码为1010101</p>
+<p>2、冯泽云分类法</p>
+<p>3、Handler分类法</p>
+<p>4、Kuck分类法</p>
+<h4 id="计算机指令："><a href="#计算机指令：" class="headerlink" title="计算机指令："></a>计算机指令：</h4><p>计算机指令的组成：一条指令由操作码和操作数两部分组成，操作码决定要完成的操作，操作数指参加运算的数据及其所在的单元地址。</p>
+<p>在计算机中，操作要求和操作数地址都由二进制数码表示，分别称作操作码和地址码，整条指令以二进制编码形式存放在存储器中。<strong>地址码是操作数地址, 不是操作码</strong></p>
+<p>计算机指令执行过程：取指令 –&gt; 分析指令 –&gt; 执行指令三个步骤, 首先将程序计数器PC中的指令地址取出, 送入地址总线, CPU依据指令地址去内存中去除指令内容存入指令寄存器IR; 而后由指令译码器进行分析, 分析指令操作码; 最后执行指令,去除指令执行所需的源操作数.</p>
+<h4 id="指令寻址方式"><a href="#指令寻址方式" class="headerlink" title="指令寻址方式:"></a>指令寻址方式:</h4><p>**顺序寻址方式:**当执行一段程序的时候, 是一条指令接着一条指令地顺序执行.</p>
+<p>跳跃寻址方式:下一条指令的地址码不是由程序计数器给出, 而是由本条指令直接给出. 程序跳跃后按新的指令地址顺序执行, 因此程序计数器的内容也必须相应改变, 以便及时跟踪新的指令地址.</p>
+<p><strong>指令操作数的寻址方式:</strong></p>
+<p>立即寻址方式: 指令的地址码字段指出的不是地址而是操作数本身(指令—–操作数本身)</p>
+<p>直接寻址方式: 在指令的地址字段中直接指出操作数在主存中的地址(指令—–操作数地址)</p>
+<p>间接寻址方式: 指令地址码字段所指向的存储单元中存储的是操作数的地址.(指令—–某地址—–操作数地址)</p>
+<p>寄存器寻址方式: 指令中的地址码是寄存器的编号</p>
+<h4 id="指令系统-重点"><a href="#指令系统-重点" class="headerlink" title="指令系统(重点):"></a>指令系统(重点):</h4><table>
+<thead>
+<tr>
+<th>指令系统类型</th>
+<th>指令</th>
+<th>寻址方式</th>
+<th>实现方式</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CISC(复杂)</td>
+<td>数量多,使用频率差别大,可变长格式</td>
+<td>支持多种</td>
+<td>微程序控制技术(微码)</td>
+<td>研制周期长</td>
+</tr>
+<tr>
+<td>RISC(精简)</td>
+<td>数量少,使用频率接近,定长格式,大部分为单周期指令,操作寄存器,只有Load&#x2F;Store操作内存</td>
+<td>支持方式少</td>
+<td>增加了通用寄存器;硬布线逻辑控制为主;适合采用流水线</td>
+<td>优化编译,有效支持高级语言</td>
+</tr>
+</tbody></table>
+<p>指令流水线: 将指令分成不同段, 每段由不同的部分去处理, 因此可以产生叠加的效果,所有的部件去处理指令的不同段</p>
+<p><img src="/images/image-20220915003001391.png" alt="是否使用流水线执行指令"></p>
+<h4 id="流水线相关计算"><a href="#流水线相关计算" class="headerlink" title="流水线相关计算:"></a>流水线相关计算:</h4><p>流水线周期: 指令分成不同执行段, 其中<strong>执行时间最长</strong>的段为流水线周期.</p>
+<p>流水线执行时间: 1条流水线总执行时间 + (总指令条数-1) * 流水线周期</p>
+<p>流水线吞吐率: 总指令条数&#x2F;流水线执行时间 </p>
+<p>流水线加速比: 不使用流水线总执行时间&#x2F;使用流水线总执行时间</p>
+<p>超标量流水线: 常规流水线是度为1的,即每个流水线阶段只执行一个部分,当度大于1时就是超标量技术.当度为3时相当于三条流水线并行执行,因此当题目提到度的时候, 计算时需要将: 指令条数 &#x3D; 指令条数 &#x2F; 度. 然后再套流水线执行时间的公式</p>
 
                 
             </div>
@@ -589,7 +574,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://gungnirmy0919.github.io/2022/10/12/%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E3%80%81%E8%BF%9B%E5%88%B6%E8%AE%A1%E7%AE%97%E3%80%81%E6%A0%A1%E9%AA%8C%E7%A0%81/">http://gungnirmy0919.github.io/2022/10/12/%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E3%80%81%E8%BF%9B%E5%88%B6%E8%AE%A1%E7%AE%97%E3%80%81%E6%A0%A1%E9%AA%8C%E7%A0%81/</a>
+                    <a href="http://gungnirmy0919.github.io/2022/10/12/123/">http://gungnirmy0919.github.io/2022/10/12/123/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -803,13 +788,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/2022/10/12/%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E3%80%81%E8%BF%9B%E5%88%B6%E8%AE%A1%E7%AE%97%E3%80%81%E6%A0%A1%E9%AA%8C%E7%A0%81/">
+                <a href="/2022/10/12/123/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="硬件组成、进制计算、校验码">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="123">
                         
-                        <span class="card-title">硬件组成、进制计算、校验码</span>
+                        <span class="card-title">123</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1074,9 +1059,9 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2021-2022</span>
             
-            <span id="year">2019</span>
+            <span id="year">2021</span>
             <a href="/about" target="_blank">Gungnir(Yue Ma)</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -1104,13 +1089,13 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/gungnir0919" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:gungnirmy919@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1120,7 +1105,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1250686849" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1250686849" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
