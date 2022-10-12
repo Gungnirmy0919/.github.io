@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, GungnirMY919">
+    <meta name="keywords" content="体系结构、指令流水线、存储系统, GungnirMY919">
     <meta name="description" content="个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | GungnirMY919</title>
+    <title>体系结构、指令流水线、存储系统 | GungnirMY919</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">体系结构、指令流水线、存储系统</h1>
                 </div>
             </div>
         </div>
@@ -429,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E4%B8%AD%E7%BA%A7%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%89/">
+                                <span class="chip bg-color">中级软件设计师（软考）</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -443,7 +447,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-10-08
+                    2022-10-12
                 </div>
                 
 
@@ -464,19 +468,86 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="体系结构、指令流水线、存储系统"><a href="#体系结构、指令流水线、存储系统" class="headerlink" title="体系结构、指令流水线、存储系统"></a>体系结构、指令流水线、存储系统</h1><h4 id="计算机体系结构分类："><a href="#计算机体系结构分类：" class="headerlink" title="计算机体系结构分类："></a>计算机体系结构分类：</h4><p>1、Flynn分类法</p>
+<table>
+<thead>
+<tr>
+<th>体系结构类型</th>
+<th>结构</th>
+<th>关键特性</th>
+<th>代表</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单指令流单数据流SISD</td>
+<td>控制部分：一个 处理器：一个 主存模块：一个</td>
+<td></td>
+<td>单处理器系统</td>
+</tr>
+<tr>
+<td>单指令多数据流SIMD</td>
+<td>控制部分：一个 处理器：多个 主存模块：多个</td>
+<td>各处理器异步执行同一条指令</td>
+<td>并行处理机、阵列处理机、超级向量处理机</td>
+</tr>
+<tr>
+<td>多指令单数据流MISD</td>
+<td>控制部分：多个 处理器：一个 主存模块：多个</td>
+<td>被证明是不可能、不实际</td>
+<td>目前没有，有文献称流水线计算机为此类</td>
+</tr>
+<tr>
+<td>多指令多数据流MIMD</td>
+<td>控制部分：多个 处理器：多个 主存模块：多个</td>
+<td>能够实现作业、任务和制定等各级全面并行</td>
+<td>多处理器系统、多计算机</td>
+</tr>
+</tbody></table>
+<p>2、冯泽云分类法</p>
+<p>3、Handler分类法</p>
+<p>4、Kuck分类法</p>
+<h4 id="计算机指令："><a href="#计算机指令：" class="headerlink" title="计算机指令："></a>计算机指令：</h4><p>计算机指令的组成：一条指令由操作码和操作数两部分组成，操作码决定要完成的操作，操作数指参加运算的数据及其所在的单元地址。</p>
+<p>在计算机中，操作要求和操作数地址都由二进制数码表示，分别称作操作码和地址码，整条指令以二进制编码形式存放在存储器中。<strong>地址码是操作数地址, 不是操作码</strong></p>
+<p>计算机指令执行过程：取指令 –&gt; 分析指令 –&gt; 执行指令三个步骤, 首先将程序计数器PC中的指令地址取出, 送入地址总线, CPU依据指令地址去内存中去除指令内容存入指令寄存器IR; 而后由指令译码器进行分析, 分析指令操作码; 最后执行指令,去除指令执行所需的源操作数.</p>
+<h4 id="指令寻址方式"><a href="#指令寻址方式" class="headerlink" title="指令寻址方式:"></a>指令寻址方式:</h4><p>**顺序寻址方式:**当执行一段程序的时候, 是一条指令接着一条指令地顺序执行.</p>
+<p>跳跃寻址方式:下一条指令的地址码不是由程序计数器给出, 而是由本条指令直接给出. 程序跳跃后按新的指令地址顺序执行, 因此程序计数器的内容也必须相应改变, 以便及时跟踪新的指令地址.</p>
+<p><strong>指令操作数的寻址方式:</strong></p>
+<p>立即寻址方式: 指令的地址码字段指出的不是地址而是操作数本身(指令—–操作数本身)</p>
+<p>直接寻址方式: 在指令的地址字段中直接指出操作数在主存中的地址(指令—–操作数地址)</p>
+<p>间接寻址方式: 指令地址码字段所指向的存储单元中存储的是操作数的地址.(指令—–某地址—–操作数地址)</p>
+<p>寄存器寻址方式: 指令中的地址码是寄存器的编号</p>
+<h4 id="指令系统-重点"><a href="#指令系统-重点" class="headerlink" title="指令系统(重点):"></a>指令系统(重点):</h4><table>
+<thead>
+<tr>
+<th>指令系统类型</th>
+<th>指令</th>
+<th>寻址方式</th>
+<th>实现方式</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CISC(复杂)</td>
+<td>数量多,使用频率差别大,可变长格式</td>
+<td>支持多种</td>
+<td>微程序控制技术(微码)</td>
+<td>研制周期长</td>
+</tr>
+<tr>
+<td>RISC(精简)</td>
+<td>数量少,使用频率接近,定长格式,大部分为单周期指令,操作寄存器,只有Load&#x2F;Store操作内存</td>
+<td>支持方式少</td>
+<td>增加了通用寄存器;硬布线逻辑控制为主;适合采用流水线</td>
+<td>优化编译,有效支持高级语言</td>
+</tr>
+</tbody></table>
+<p>指令流水线: 将指令分成不同段, 每段由不同的部分去处理, 因此可以产生叠加的效果,所有的部件去处理指令的不同段</p>
+<p>![image-20220915003001391](&#x2F;Users&#x2F;gungnirmy&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20220915003001391.png)</p>
+<h4 id="流水线相关计算"><a href="#流水线相关计算" class="headerlink" title="流水线相关计算:"></a>流水线相关计算:</h4><p>流水线周期: 指令分成不同执行段, 其中<strong>执行时间最长</strong>的段为流水线周期.</p>
+<p>流水线执行时间: 1条流水线总执行时间 + (总指令条数-1) * 流水线周期</p>
+<p>流水线吞吐率: 总指令条数&#x2F;流水线执行时间 </p>
+<p>流水线加速比: 不使用流水线总执行时间&#x2F;使用流水线总执行时间</p>
+<p>超标量流水线: 常规流水线是度为1的,即每个流水线阶段只执行一个部分,当度大于1时就是超标量技术.当度为3时相当于三条流水线并行执行,因此当题目提到度的时候, 计算时需要将: 指令条数 &#x3D; 指令条数 &#x2F; 度. 然后再套流水线执行时间的公式</p>
 
                 
             </div>
@@ -503,7 +574,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://gungnirmy0919.github.io/2022/10/08/hello-world/">http://gungnirmy0919.github.io/2022/10/08/hello-world/</a>
+                    <a href="http://gungnirmy0919.github.io/2022/10/12/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E3%80%81%E6%8C%87%E4%BB%A4%E6%B5%81%E6%B0%B4%E7%BA%BF%E3%80%81%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/">http://gungnirmy0919.github.io/2022/10/12/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E3%80%81%E6%8C%87%E4%BB%A4%E6%B5%81%E6%B0%B4%E7%BA%BF%E3%80%81%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -540,7 +611,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/%E4%B8%AD%E7%BA%A7%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%89/">
+                                    <span class="chip bg-color">中级软件设计师（软考）</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -708,17 +783,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2022/10/12/My-first-Post/">
+                <a href="/2022/10/12/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E3%80%81%E6%8C%87%E4%BB%A4%E6%B5%81%E6%B0%B4%E7%BA%BF%E3%80%81%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="My first Post">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="体系结构、指令流水线、存储系统">
                         
-                        <span class="card-title">My first Post</span>
+                        <span class="card-title">体系结构、指令流水线、存储系统</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -728,9 +804,55 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-12
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Gungnir(Yue Ma)
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E4%B8%AD%E7%BA%A7%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%89/">
+                        <span class="chip bg-color">中级软件设计师（软考）</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/10/12/%E7%A1%AC%E4%BB%B6%E7%BB%84%E6%88%90%E3%80%81%E8%BF%9B%E5%88%B6%E8%AE%A1%E7%AE%97%E3%80%81%E6%A0%A1%E9%AA%8C%E7%A0%81/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="硬件组成、进制计算、校验码">
+                        
+                        <span class="card-title">硬件组成、进制计算、校验码</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -742,49 +864,11 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%9A%8F%E6%83%B3/">
-                        <span class="chip bg-color">随想</span>
+                    <a href="/tags/%E4%B8%AD%E7%BA%A7%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%88%E8%BD%AF%E8%80%83%EF%BC%89/">
+                        <span class="chip bg-color">中级软件设计师（软考）</span>
                     </a>
                     
                 </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/10/08/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-08
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Gungnir(Yue Ma)
-                            
-                        </span>
-                    </div>
-                </div>
-
                 
             </div>
         </div>
